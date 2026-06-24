@@ -1,2 +1,14 @@
-@import url("global.css");
-@import url("header.css");
+/* global */
+@import url("global/global.css");
+@import url("global/header.css");
+
+/* css utilitario */ 
+@import url("utilidades/componetes.css");
+@import url("utilidades/tipografia.css");
+@import url("utilidades/colors.css");
+
+/* home */
+@import url("home/introducao.css");
+
+/* Bicicletas lista */
+@import url("bicicletas/bicicletas-lista.css");

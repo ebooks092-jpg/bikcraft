@@ -1,5 +1,6 @@
 .header-bg {
-    background-color: black;
+    background-color: var(--cor-12);
+    font-family: "Poppins", sans-serif;
 }
 
 .header {
@@ -7,8 +8,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
     gap: 20px;
     flex-wrap: wrap;
 }
@@ -25,7 +24,6 @@
     padding: 16px 0px;
     color: white;
     display: inline-block;
-    font-size: 18px;
     position: relative;
 }
 
@@ -34,7 +32,7 @@
     display: block;
     height: 3px;
     width: 0%;
-    background-color: rgb(252, 237, 32);
+    background-color: var(--cor-p1);
     border-radius: 10px;
     transition: 0.2s ease;
     position: absolute;
@@ -50,13 +48,13 @@
     }
 
     .header-menu a {
-        background-color: #111;
+        background-color: var(--cor-11);
         padding: 12px 16px;
         border-radius: 4px;
     }
 
     .header-menu a:hover {
-        background-color: #2e2e2e;
+        background-color: var(-cor-10);
     }
 
     .header-menu a::after {
@@ -66,12 +64,16 @@
 }
 
 @media (max-width: 600px) {
+    .header {
+        justify-content: center;
+    }
     .header-menu {
         gap: 12px;
+        margin-top: 10px;
     }
 
     .header-menu a {
-        padding: 8px 12px;
+        padding: 10px 12px;
         font-size: 14px;
     }
 }
