@@ -1,13 +1,13 @@
 .container {
-     max-width: 1200px;
-     padding-left: 20px;
-     padding-right: 20px;
-     margin-left: auto;
-     margin-right: auto;
-     box-sizing: border-box;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
 }
 
-.botao{
+.botao {
     padding: 16px 32px;
     background: linear-gradient(rgb(255, 182, 13), rgb(229, 147, 23));
     font-size: 18px;
@@ -21,6 +21,21 @@
     font-size: 18px;
     line-height: 1.33;
     font-family: "poppins", sans-serif;
+    max-width: max-content;
+}
+
+.botao:hover {
+    background: linear-gradient(rgb(255, 182, 13), rgb(175, 112, 18));
+}
+
+
+.botao.secundario {
+    background: var(--cor-10);
+    color: var(--cor-2);
+}
+
+.botao.secundario:hover {
+    background-color: var(--cor-9);
 }
 
 .link {
@@ -43,10 +58,6 @@
 
 .link:hover {
     color: var(--cor-p3);
-}
-
-.botao:hover {
-    background: linear-gradient(rgb(255, 182, 13), rgb(175, 112, 18));
 }
 
 @media (max-width: 600px) {

@@ -26,6 +26,9 @@
     color: var(--cor-p4);
 }
 
+.cor-6 {
+    color: var(--cor-6);
+}
 
 .cor-0 {
     color: white;

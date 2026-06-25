@@ -1,6 +1,7 @@
 /* global */
 @import url("global/global.css");
 @import url("global/header.css");
+@import url("global/footer.css");
 
 /* css utilitario */ 
 @import url("utilidades/componetes.css");
@@ -15,3 +16,6 @@
 
 /* Bicicletas lista */
 @import url("bicicletas/bicicletas-lista.css");
+
+/* Seguros */
+@import url("seguros/seguros.css");
