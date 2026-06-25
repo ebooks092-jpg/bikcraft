@@ -18,6 +18,15 @@
   --cor-p5: #332200;
 }
 
+.cor-p5 {
+    color: var(--cor-p5);
+}
+
+.cor-p4 {
+    color: var(--cor-p4);
+}
+
+
 .cor-0 {
     color: white;
 }
