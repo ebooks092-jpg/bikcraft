@@ -58,8 +58,8 @@
     color: #fb0;
     font-size: 52px;
     position: relative;
-    right: 10px;
 }
+
 @media (max-width: 1200px) {
   .font-1-xxl {
     font-size: 3rem;

@@ -1,0 +1,74 @@
+.perguntas {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.perguntas h2 {
+    margin-bottom: 60px;
+}
+
+.perguntas dl {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.perguntas div:nth-child(odd) {
+    background-color: var(--cor-1);
+}
+
+.perguntas div {
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.perguntas dt {
+    padding-left: 16px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.perguntas dt::before {
+    content: "";
+    width: 10px;
+    height: 8px;
+    background-color: var(--cor-p1);
+    position: absolute;
+    display: inline-block;
+    left: 0px;
+}
+
+.perguntas dt::after {
+    content: "";
+    position: absolute;
+    background: url(/bikcraft/img/icones/seta-abrir.svg);
+    width: 15px;
+    height: 20px;
+    background-repeat: no-repeat;
+    right: 0;
+    transition: 0.3s ease;
+}
+
+.perguntas dt:hover::after {
+    transform: rotate(180deg);
+}
+
+.perguntas dd {
+    padding: 16px 0px 0px 20px;
+    max-width: 80ch;
+}
+
+@media (max-width: 800px) {
+    .perguntas {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+
+    .perguntas h2 {
+        margin-bottom: 40px;
+        font-size: 1.65rem;
+       
+    }
+}
